@@ -2,12 +2,19 @@
 
 * [VeriQ](README.md)
 * [Executive Summary](executive-summary.md)
-* [The Quantum Threat](the-quantum-threat.md)
+
+## Quantum
+
+* [The Quantum Threat](quantum/the-quantum-threat.md)
+* [Attack Vectors](quantum/attack-vectors.md)
+* [Post-Quantum Cryptography](quantum/post-quantum-cryptography.md)
+* [How VeriQ Defends](quantum/how-veriq-defends.md)
 
 ## Platform
 
 * [Architecture](platform/architecture.md)
 * [Key Features](platform/features.md)
+* [Verification & Proofs](platform/verification.md)
 
 ## Token
 

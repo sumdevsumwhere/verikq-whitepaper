@@ -1,4 +1,4 @@
-<figure><img src="media/wireframe.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../media/veriQ.png" alt="VeriQ"><figcaption></figcaption></figure>
 
 # The Quantum Threat
 

@@ -1,3 +1,5 @@
+<figure><img src="media/logo-main.gif" alt="VeriQ"><figcaption></figcaption></figure>
+
 # Official Links
 
 > Only trust links listed on this page. VeriQ will never DM you first.
