@@ -30,10 +30,10 @@ $VQ is a **100% fair launch** token. There is no team allocation, no reserved su
 
 $VQ powers every interaction within the VeriQ ecosystem:
 
-- **Payments** — Pay for quantum audits, smart contract tests, and marketplace compute
-- **Staking** — Stake as a verifier to secure the network and earn rewards
-- **Governance** — Vote on protocol upgrades and platform parameters
-- **Marketplace Access** — Required for buying and selling compute resources
+- Pay for quantum audits, smart contract tests, and marketplace compute
+- Stake as a verifier to secure the network and earn rewards
+- Vote on protocol upgrades and platform parameters
+- Required for buying and selling compute resources on the marketplace
 
 ---
 

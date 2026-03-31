@@ -4,7 +4,7 @@ VeriQ is a **quantum-enhanced security platform** built on BNB Smart Chain, desi
 
 ## The Problem
 
-Blockchain networks rely on cryptographic systems (RSA, elliptic curve cryptography) that quantum computers are designed to break. Despite this, the industry lacks accessible tools for testing quantum resistance — leaving developers and institutions unprepared.
+Blockchain networks rely on cryptographic systems (RSA, elliptic curve cryptography) that quantum computers are designed to break. Despite this, the industry lacks accessible tools for testing quantum resistance, leaving developers and institutions unprepared.
 
 ## The Solution
 

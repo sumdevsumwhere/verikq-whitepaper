@@ -6,11 +6,11 @@ VeriQ provides a practical defense layer between current blockchain infrastructu
 
 ## Defense Strategy
 
-Rather than waiting for quantum attacks to materialize, VeriQ takes a **proactive approach** — enabling the ecosystem to identify, assess, and remediate vulnerabilities today.
+Rather than waiting for quantum attacks to materialize, VeriQ takes a **proactive approach**, enabling the ecosystem to identify, assess, and remediate vulnerabilities today.
 
 | Step | Phase | Action |
 |:---:|---|---|
-| **1** | **Identify** | Scan targets — key parameters, contracts, protocol configs |
+| **1** | **Identify** | Scan targets including key parameters, contracts, and protocol configs |
 | **2** | **Assess** | Simulate quantum attacks against identified targets |
 | **3** | **Remediate** | Recommend migration path and prioritized fixes |
 
@@ -31,7 +31,7 @@ The core defense capability. VeriQ simulates real quantum algorithms against blo
 
 **How it works:**
 
-1. User submits audit target (key parameters, contract address, or protocol config)
+1. User submits an audit target (key parameters, contract address, or protocol config)
 2. VeriQ distributes quantum simulation tasks across the compute network
 3. Independent verifiers validate results via zero-knowledge attestations
 4. A vulnerability report is delivered with actionable recommendations
@@ -42,16 +42,16 @@ The core defense capability. VeriQ simulates real quantum algorithms against blo
 
 Every audit result is verified, not trusted.
 
-- **Multiple independent nodes** execute the same simulation
-- **Zero-knowledge proofs** confirm computational integrity
-- **On-chain attestation** creates an immutable audit trail
-- **Staked verifiers** have economic incentive to produce honest results
+- Multiple independent nodes execute the same simulation
+- Zero-knowledge proofs confirm computational integrity
+- On-chain attestation creates an immutable audit trail
+- Staked verifiers have economic incentive to produce honest results
 
 ---
 
 ## Mining Protection
 
-Quantum computers don't just threaten cryptographic keys — they threaten mining operations.
+Quantum computers don't just threaten cryptographic keys. They also threaten mining operations.
 
 VeriQ's mining protection analyzes:
 
@@ -73,8 +73,8 @@ The quantum threat evolves as hardware advances. VeriQ's platform is designed fo
 
 ## What VeriQ Does Not Do
 
-Transparency matters. VeriQ is a **security assessment and preparation platform**:
+Transparency matters. VeriQ is a **security assessment and preparation platform**.
 
-- VeriQ does not replace your blockchain's cryptography — it tests it
-- VeriQ does not guarantee quantum immunity — it identifies vulnerabilities and recommends paths forward
-- VeriQ does not require quantum hardware to provide value — classical quantum simulation delivers actionable results today
+- VeriQ does not replace your blockchain's cryptography. It tests it.
+- VeriQ does not guarantee quantum immunity. It identifies vulnerabilities and recommends paths forward.
+- VeriQ does not require quantum hardware to provide value. Classical quantum simulation delivers actionable results today.

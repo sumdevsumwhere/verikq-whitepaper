@@ -22,7 +22,7 @@ The primary threat to blockchain cryptography. Shor's algorithm efficiently solv
 
 ### What's At Risk
 
-Every blockchain using ECDSA for transaction signing — including BNB Smart Chain, Bitcoin, and Ethereum — is theoretically vulnerable once quantum hardware reaches sufficient scale.
+Every blockchain using ECDSA for transaction signing, including BNB Smart Chain, Bitcoin, and Ethereum, is theoretically vulnerable once quantum hardware reaches sufficient scale.
 
 ---
 
@@ -46,9 +46,9 @@ A quantum search algorithm that provides a **quadratic speedup** over classical 
 
 ## Harvest Now, Decrypt Later (HNDL)
 
-Not an algorithm — a **strategy** already in active use.
+This isn't an algorithm. It's a **strategy** already in active use.
 
-Adversaries record encrypted blockchain data and transactions today with the intent to decrypt them once sufficiently powerful quantum computers become available.
+Adversaries record encrypted blockchain data and transactions today, planning to decrypt them once sufficiently powerful quantum computers become available.
 
 **Why this matters now:**
 
@@ -63,9 +63,9 @@ Adversaries record encrypted blockchain data and transactions today with the int
 
 As quantum networks develop, new attack surfaces emerge:
 
-- **Man-in-the-middle** on quantum key distribution channels
-- **Side-channel attacks** exploiting physical quantum hardware imperfections
-- **Hybrid attacks** combining classical and quantum techniques
+- Man-in-the-middle attacks on quantum key distribution channels
+- Side-channel attacks exploiting physical quantum hardware imperfections
+- Hybrid attacks combining classical and quantum techniques
 
 ---
 
@@ -78,4 +78,4 @@ As quantum networks develop, new attack surfaces emerge:
 | RSA-2048 breakable | Requires ~4,000 logical qubits |
 | ECDSA-256 breakable | Requires ~2,500 logical qubits |
 
-The exact timeline is uncertain, but the trajectory is clear — preparation must begin before the capability arrives.
+The exact timeline is uncertain, but the trajectory is clear. Preparation must begin before the capability arrives.

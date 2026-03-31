@@ -4,8 +4,8 @@
 
 Blockchain technology relies on cryptographic systems to ensure security and trustlessness. The two primary pillars are:
 
-- **RSA** — used for key exchange and digital signatures
-- **Elliptic Curve Cryptography (ECC)** — the backbone of wallet addresses and transaction signing across most blockchain networks
+- **RSA**, used for key exchange and digital signatures
+- **Elliptic Curve Cryptography (ECC)**, the backbone of wallet addresses and transaction signing across most blockchain networks
 
 These systems derive their security from mathematical problems that classical computers cannot solve in any reasonable timeframe.
 
@@ -23,7 +23,7 @@ In 1994, Peter Shor developed a quantum algorithm capable of efficiently factori
 
 ## Harvest Now, Decrypt Later
 
-Adversaries may already be collecting encrypted blockchain data today with the intent to decrypt it once quantum hardware matures. This makes the threat **present-tense**, not hypothetical.
+Adversaries may already be collecting encrypted blockchain data today, planning to decrypt it once quantum hardware matures. This makes the threat **present-tense**, not hypothetical.
 
 ## The Industry Gap
 

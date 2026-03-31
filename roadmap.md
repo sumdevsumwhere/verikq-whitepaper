@@ -4,7 +4,7 @@
 
 ---
 
-### Phase 01 — Q2 2026
+### Phase 01 / Q2 2026
 
 **Prototype & Early Integration**
 
@@ -15,7 +15,7 @@
 
 ---
 
-### Phase 02 — Q3 2026
+### Phase 02 / Q3 2026
 
 **Beta Quantum Marketplace**
 
@@ -26,7 +26,7 @@
 
 ---
 
-### Phase 03 — Q4 2026
+### Phase 03 / Q4 2026
 
 **Mainnet Quantum Defense**
 

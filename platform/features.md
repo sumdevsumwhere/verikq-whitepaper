@@ -44,6 +44,6 @@ A decentralized marketplace connecting quantum compute providers with consumers.
 
 ## Developer Tools
 
-- **SDKs & APIs** — Integrate VeriQ's quantum audit capabilities into your own applications
-- **Qiskit & Cirq Integration** — Leverage established quantum frameworks
-- **Staking & Governance** — Participate in network security and platform direction
+- SDKs and APIs to integrate VeriQ's quantum audit capabilities into your own applications
+- Qiskit and Cirq integration to leverage established quantum frameworks
+- Staking and governance to participate in network security and platform direction
