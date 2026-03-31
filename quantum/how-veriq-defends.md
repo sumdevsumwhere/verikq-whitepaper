@@ -8,14 +8,11 @@ VeriQ provides a practical defense layer between current blockchain infrastructu
 
 Rather than waiting for quantum attacks to materialize, VeriQ takes a **proactive approach** — enabling the ecosystem to identify, assess, and remediate vulnerabilities today.
 
-```
- Identify              Assess               Remediate
-┌──────────┐      ┌──────────────┐      ┌──────────────┐
-│  Scan    │ ───▶ │  Simulate    │ ───▶ │  Recommend   │
-│  targets │      │  quantum     │      │  migration   │
-│          │      │  attacks     │      │  path        │
-└──────────┘      └──────────────┘      └──────────────┘
-```
+| Step | Phase | Action |
+|:---:|---|---|
+| **1** | **Identify** | Scan targets — key parameters, contracts, protocol configs |
+| **2** | **Assess** | Simulate quantum attacks against identified targets |
+| **3** | **Remediate** | Recommend migration path and prioritized fixes |
 
 ---
 

@@ -4,22 +4,11 @@ VeriQ operates across three interconnected layers.
 
 ## Architecture Overview
 
-```
-┌─────────────────────────────────────────────────┐
-│            Oracles & Verifiers                   │
-│   Independent Verifiers · ZK Attestations        │
-│            $VQ Staking                           │
-├─────────────────────────────────────────────────┤
-│              Blockchain Layer                     │
-│    Task Orchestration · Audit Logging · Payments │
-│         EVM-Compatible Smart Contracts           │
-│              (BNB Smart Chain)                   │
-├─────────────────────────────────────────────────┤
-│               Quantum Layer                      │
-│     Quantum Simulators · Real Quantum Devices    │
-│            Qiskit · Cirq Integration             │
-└─────────────────────────────────────────────────┘
-```
+| Layer | Role | Components |
+|---|---|---|
+| **Oracles & Verifiers** | Integrity & trust | Independent verifiers, ZK attestations, $VQ staking |
+| **Blockchain Layer** | Orchestration & payments | Task management, audit logging, EVM smart contracts (BSC) |
+| **Quantum Layer** | Computation | Quantum simulators, real quantum devices, Qiskit & Cirq |
 
 ---
 

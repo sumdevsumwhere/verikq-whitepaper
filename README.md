@@ -30,7 +30,7 @@ As quantum computing advances, the cryptographic systems securing blockchain net
 ### Quick Navigation
 
 * [Executive Summary](executive-summary.md)
-* [The Quantum Threat](the-quantum-threat.md)
+* [The Quantum Threat](quantum/the-quantum-threat.md)
 * [Platform Architecture](platform/architecture.md)
 * [Key Features](platform/features.md)
 * [Tokenomics](tokenomics.md)

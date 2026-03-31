@@ -24,27 +24,12 @@ All without exposing the underlying computation data.
 
 ## Verification Flow
 
-```
-Compute Provider                    Verifier Network
-┌─────────────────┐                ┌─────────────────┐
-│ Execute quantum  │                │ Receive result   │
-│ simulation       │ ──────────▶   │ + proof          │
-│                  │                │                  │
-│ Generate result  │                │ Validate ZK      │
-│ + ZK proof       │                │ attestation      │
-└─────────────────┘                │                  │
-                                   │ Submit on-chain  │
-                                   │ attestation      │
-                                   └─────────────────┘
-                                            │
-                                            ▼
-                                   ┌─────────────────┐
-                                   │ BNB Smart Chain  │
-                                   │                  │
-                                   │ Immutable audit  │
-                                   │ record stored    │
-                                   └─────────────────┘
-```
+| Step | Actor | Action |
+|:---:|---|---|
+| **1** | **Compute Provider** | Executes quantum simulation and generates result + ZK proof |
+| **2** | **Verifier Network** | Receives result, validates ZK attestation |
+| **3** | **Verifier Network** | Submits on-chain attestation to BNB Smart Chain |
+| **4** | **BNB Smart Chain** | Stores immutable audit record on-chain |
 
 ---
 
