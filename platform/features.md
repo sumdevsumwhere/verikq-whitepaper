@@ -1,5 +1,3 @@
-<figure><img src="../media/logo.gif" alt="VeriQ"><figcaption></figcaption></figure>
-
 # Key Features
 
 ## Quantum Vulnerability Audits

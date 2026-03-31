@@ -1,5 +1,3 @@
-<figure><img src="../media/veriQ.png" alt="VeriQ"><figcaption></figcaption></figure>
-
 # How VeriQ Defends
 
 VeriQ provides a practical defense layer between current blockchain infrastructure and emerging quantum threats.

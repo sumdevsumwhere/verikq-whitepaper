@@ -1,5 +1,3 @@
-<figure><img src="media/logo-main.gif" alt="VeriQ"><figcaption></figcaption></figure>
-
 # Roadmap
 
 ## Development Phases

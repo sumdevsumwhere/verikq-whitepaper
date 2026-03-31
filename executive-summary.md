@@ -1,5 +1,3 @@
-<figure><img src="media/logo-main.gif" alt="VeriQ"><figcaption></figcaption></figure>
-
 # Executive Summary
 
 VeriQ is a **quantum-enhanced security platform** built on BNB Smart Chain, designed to protect blockchain ecosystems from emerging quantum computing threats.

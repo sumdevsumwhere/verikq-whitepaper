@@ -1,5 +1,3 @@
-<figure><img src="../media/veriQ.png" alt="VeriQ"><figcaption></figcaption></figure>
-
 # Attack Vectors
 
 Quantum computers introduce specific algorithms that directly threaten the cryptographic foundations of blockchain networks.

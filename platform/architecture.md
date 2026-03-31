@@ -1,5 +1,3 @@
-<figure><img src="../media/veriQ.png" alt="VeriQ"><figcaption></figcaption></figure>
-
 # Platform Architecture
 
 VeriQ operates across three interconnected layers.

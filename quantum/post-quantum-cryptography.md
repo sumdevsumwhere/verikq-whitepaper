@@ -1,5 +1,3 @@
-<figure><img src="../media/veriQ.png" alt="VeriQ"><figcaption></figcaption></figure>
-
 # Post-Quantum Cryptography
 
 Post-quantum cryptography (PQC) refers to cryptographic algorithms designed to be secure against both classical and quantum computers.
