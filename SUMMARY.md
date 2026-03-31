@@ -2,32 +2,21 @@
 
 * [VeriQ](README.md)
 * [Executive Summary](executive-summary.md)
-* [Abstract](abstract.md)
-* [Introduction](introduction.md)
-* [Problem Statement](problem-statement.md)
+* [The Quantum Threat](the-quantum-threat.md)
 
 ## Platform
 
-* [Solution Overview](platform/solution-overview.md)
 * [Architecture](platform/architecture.md)
-* [Key Features](platform/key-features.md)
+* [Key Features](platform/features.md)
 
-## Tokenomics
+## Token
 
-* [Overview](tokenomics/overview.md)
-* [Token Distribution](tokenomics/distribution.md)
-* [Utility & Governance](tokenomics/utility-and-governance.md)
+* [Tokenomics](tokenomics.md)
 
-## Roadmap & Strategy
+## Roadmap
 
-* [Roadmap](roadmap.md)
-* [Competitive Analysis](competitive-analysis.md)
+* [Development Phases](roadmap.md)
 
-## Risk & Compliance
+## Links
 
-* [Risks & Mitigations](risks-and-mitigations.md)
-
-## Resources
-
-* [Conclusion](conclusion.md)
-* [Media Kit](resources/media-kit.md)
+* [Official Links](official-links.md)

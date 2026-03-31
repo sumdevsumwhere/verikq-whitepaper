@@ -1,25 +1,38 @@
+<figure><img src="media/banner.png" alt="VeriQ Banner"><figcaption></figcaption></figure>
+
 # VeriQ
 
-## Quantum-Enhanced Security Audits for Blockchain
+## Securing Blockchain for the Quantum Era
 
-VeriQ is a quantum-enhanced security platform designed to protect blockchain ecosystems from emerging quantum threats. Built on **BNB Smart Chain (BSC)**, VeriQ provides tools for auditing, optimizing, and future-proofing blockchain infrastructure through decentralized quantum simulation and verification.
+VeriQ is a decentralized defense platform that prepares blockchain ecosystems for the quantum computing era. Built on **BNB Smart Chain**, VeriQ combines quantum simulation, decentralized compute, and blockchain-based verification to protect the infrastructure that powers decentralized finance.
 
-As quantum computing advances, traditional cryptographic systems face increasing risk. VeriQ enables developers and organizations to assess quantum resilience **today** — before it's too late.
-
-### What VeriQ Offers
-
-- **Quantum Vulnerability Audits** — Simulate quantum attacks on your blockchain's cryptographic layer
-- **Mining Optimization** — Analyze and optimize mining operations against quantum-class computation
-- **Decentralized Quantum Marketplace** — Access quantum compute power on-demand through a trustless marketplace
-- **Smart Contract Security** — Test your contracts against quantum attack vectors
-
-### Quick Links
-
-- [Executive Summary](executive-summary.md)
-- [Platform Architecture](platform/architecture.md)
-- [Tokenomics](tokenomics/overview.md)
-- [Roadmap](roadmap.md)
+> The first decentralized platform built specifically to defend against quantum threats — combining audits, mining optimization, and a marketplace in one ecosystem.
 
 ---
 
-> **$VQ** is the native utility token powering the VeriQ ecosystem on BNB Smart Chain.
+### What is VeriQ?
+
+As quantum computing advances, the cryptographic systems securing blockchain networks face real and growing risk. VeriQ bridges the gap between blockchain and quantum computing so that decentralized systems can thrive in a post-quantum world.
+
+**$VQ** is the native utility token powering the VeriQ ecosystem.
+
+| | |
+|---|---|
+| **Token** | $VQ |
+| **Network** | BNB Smart Chain (BEP-20) |
+| **Launch** | 100% Fair Launch via four.meme |
+| **Tax** | 0% Buy / 0% Sell |
+| **Liquidity** | Burned |
+| **Contract** | Renounced |
+
+---
+
+### Quick Navigation
+
+* [Executive Summary](executive-summary.md)
+* [The Quantum Threat](the-quantum-threat.md)
+* [Platform Architecture](platform/architecture.md)
+* [Key Features](platform/features.md)
+* [Tokenomics](tokenomics.md)
+* [Roadmap](roadmap.md)
+* [Official Links](official-links.md)

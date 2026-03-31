@@ -1,89 +1,55 @@
+<figure><img src="../media/veriQ.png" alt="VeriQ"><figcaption></figcaption></figure>
+
 # Platform Architecture
 
-VeriQ's architecture is composed of four interconnected layers, each responsible for a distinct aspect of the platform's functionality.
+VeriQ operates across three interconnected layers.
 
 ## Architecture Overview
 
 ```
 ┌─────────────────────────────────────────────────┐
-│                 Frontend Layer                    │
-│          Web Interface & API Gateway             │
-├─────────────────────────────────────────────────┤
-│              Verification Layer                   │
-│       Cryptographic Proofs & Validation          │
+│            Oracles & Verifiers                   │
+│   Independent Verifiers · ZK Attestations        │
+│            $VQ Staking                           │
 ├─────────────────────────────────────────────────┤
 │              Blockchain Layer                     │
-│    Smart Contracts · Payments · Governance        │
-│              (BNB Smart Chain)                    │
+│    Task Orchestration · Audit Logging · Payments │
+│         EVM-Compatible Smart Contracts           │
+│              (BNB Smart Chain)                   │
 ├─────────────────────────────────────────────────┤
 │               Quantum Layer                      │
-│     Simulation Engines · Compute Providers       │
+│     Quantum Simulators · Real Quantum Devices    │
+│            Qiskit · Cirq Integration             │
 └─────────────────────────────────────────────────┘
 ```
 
-## Layer Details
+---
 
-### Quantum Layer
+## Quantum Layer
 
-The foundation of VeriQ's computational capability.
+The computational foundation. Interfaces with quantum simulators and real quantum devices.
 
 - **Simulation Engines** — Execute quantum algorithms (Shor's, Grover's) against target cryptographic parameters
-- **Compute Providers** — Decentralized network of quantum and classical simulation nodes
-- **Supported Frameworks** — Integration with Qiskit, Cirq, and other quantum computing frameworks
-- **Hybrid Execution** — Seamless switching between quantum hardware and classical simulation
+- **Framework Integration** — Built on Qiskit and Cirq quantum computing frameworks
+- **Hybrid Execution** — Supports both classical quantum simulation and real quantum hardware
 
-### Blockchain Layer
+---
 
-The trust and coordination backbone, deployed on **BNB Smart Chain**.
+## Blockchain Layer
 
-- **Audit Contracts** — Manage audit requests, task distribution, and result submission
-- **Payment Contracts** — Handle $VQ token transfers, escrow, and fee distribution
-- **Marketplace Contracts** — Facilitate compute provider listings and consumer matching
-- **Governance Contracts** — Enable token-weighted voting on platform parameters
+The orchestration and trust backbone, deployed on **BNB Smart Chain**.
 
-### Verification Layer
+- **Task Orchestration** — Manages audit requests, task distribution, and compute scheduling
+- **Audit Logging** — Immutable on-chain record of all audit results
+- **Payments** — $VQ token transfers for services, escrow, and marketplace transactions
+- **Smart Contracts** — EVM-compatible contracts handling all platform logic
 
-Ensures the integrity and correctness of all computational results.
+---
 
-- **Proof Generation** — Compute nodes generate cryptographic proofs of their work
-- **Proof Verification** — On-chain verification of submitted results
-- **Dispute Resolution** — Automated challenge-response mechanism for contested results
-- **Redundancy** — Critical computations are distributed to multiple nodes for cross-verification
+## Oracles & Verifiers
 
-### Frontend Layer
+Ensures computational integrity through independent verification.
 
-The user-facing interface for interacting with VeriQ.
-
-- **Web Dashboard** — Intuitive interface for submitting audits and viewing results
-- **API Gateway** — RESTful API for programmatic access and integration
-- **Developer SDK** — Tools for building on top of VeriQ's infrastructure
-- **Real-time Monitoring** — Live status updates on audit progress and marketplace activity
-
-## Data Flow
-
-```
-User Request
-    │
-    ▼
-┌──────────┐    ┌───────────────┐    ┌──────────────┐
-│ Frontend │───▶│  Blockchain   │───▶│   Quantum    │
-│  Layer   │    │    Layer      │    │    Layer     │
-└──────────┘    └───────────────┘    └──────────────┘
-                       │                     │
-                       ▼                     ▼
-                ┌───────────────┐    ┌──────────────┐
-                │  Verification │◀───│   Results    │
-                │    Layer      │    │  Submission  │
-                └───────────────┘    └──────────────┘
-                       │
-                       ▼
-                 Final Report
-                 Delivered to User
-```
-
-## Security Considerations
-
-- All inter-layer communication is encrypted
-- Smart contracts are audited and formally verified
-- Quantum simulation results are never stored in plaintext on-chain
-- Access control is enforced at every layer through wallet-based authentication
+- **Independent Verifiers** — Stake $VQ to participate as verification nodes
+- **Zero-Knowledge Attestations** — Verifiers generate ZK proofs to confirm computation integrity without exposing sensitive data
+- **Staking & Slashing** — Economic security through bonded $VQ tokens
